@@ -15,6 +15,7 @@ public class LogJob   {
     @Scheduled(cron = "0,30,59 * * * * ?")
     public void synRecipeCount() {
     	System.out.println("ppppp");
+		
     }
 
 
